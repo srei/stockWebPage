@@ -1,0 +1,26 @@
+///
+/// Creates a list of global breakpoints
+///
+/// @example scss - Creates a single breakpoint with the label phone
+///  $breakpoints: ('phone': 320px);
+/*
+$breakpoints: (
+  'phone': 320px,
+  'tablet': 768px,
+  'desktop': 1024px
+) !default;
+
+Then you can do this
+
+  ul {
+    list-style: none;
+    max-width: 375px;
+    margin: auto;
+    @include media('>=tablet', '<desktop') {
+      max-width: 500px;
+    }
+    @include media('>=desktop') {
+      max-width: none;
+    }
+  }
+  */
